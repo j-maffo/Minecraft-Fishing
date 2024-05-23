@@ -29,15 +29,15 @@ function fishBtnClicked() {
     } else if (randNum < 0.9) {
       resultImg.src = "img/Raw-Salmon.png";
       numSalmon++;
-      numSalmonSpan.innerHTML = numCod;
+      numSalmonSpan.innerHTML = numSalmon;
     } else if (randNum < 0.95) {
       resultImg.src = "img/Tropical-Fish.png";
       numTropical++;
-      numTropicalSpan.innerHTML = numCod;
+      numTropicalSpan.innerHTML = numTropical;
     } else {
       resultImg.src = "img/Pufferfish.png";
       numPuffer++;
-      numPufferSpan.innerHTML = numCod;
+      numPufferSpan.innerHTML = numPuffer;
     }
   } else if (character === "alex") {
     // Alex Fish Simulator
